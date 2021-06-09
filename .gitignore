@@ -18,36 +18,14 @@
 
 # Files #
 #########
-CODE_OF_CONDUCT.md
-CONTRIBUTING.md
-CONTRIBUTORS
-TODO.md
-ROADMAP.md
 .postinstall.json
 
 # Directories #
 ###############
-.circleci/
-.github/
-**/benchmark/
-**/build/
-**/examples/
+build/
+downloads/
 reports/
-support/
-**/tmp/
-workshops/
-
-# Ignore test directories, except for testing dependency installation:
-**/test/
-!/deps/test/
-
-# Ignore top-level tools directory, except for scripts:
-/tools/*
-!/tools/scripts/
-
-# Only top-level directories:
-/etc/
-/docs/
+tmp/
 
 # Compiled source #
 ###################
@@ -81,6 +59,8 @@ workshops/
 
 # Packages #
 ############
+# It is better to unpack these files and commit the raw source
+# git has its own built in compression methods
 *.7z
 *.dmg
 *.gz
@@ -117,16 +97,18 @@ Desktop.ini
 
 # Node.js #
 ###########
-.npmignore
-
-# Only top-level node_modules:
 /node_modules/
+lib/node_modules/**/node_modules/
+docs/**/node_modules/
+pids
+*.pid
+*.seed
 
-# TypeScript #
+# Typescript #
 ##############
-tsconfig.json
-tslint.json
 *.tsbuildinfo
+lib/node_modules/**/tsconfig.json
+lib/node_modules/**/tslint.json
 
 # Matlab #
 ##########
@@ -149,9 +131,6 @@ __pycache__/
 *.py[cod]
 *$py.class
 *.egg-info/
-.ipynb_checkpoints
-setup.cfg
-setup.py
 
 # TeX #
 #######
@@ -196,34 +175,7 @@ acs-*.bib
 *.ind
 *.ist
 
-# Git #
-#######
-.git*
-.mailmap
-
 # Visual Studio #
 #################
 .vscode/
 jsconfig.json
-
-# Utilities #
-#############
-.jshintrc
-.jshintignore
-.eslintrc*
-.eslintignore
-
-.pylintrc
-.pycodestyle
-.pydocstyle
-
-.travis.yml
-circle.yml
-appveyor.yml
-azure-pipelines.yml
-
-.editorconfig
-.codeclimate.yml
-.codecov.yml
-
-.rtlintrc

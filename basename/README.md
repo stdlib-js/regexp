@@ -123,7 +123,7 @@ base = reBasename.REGEXP_WIN32.exec( 'C:\\foo\\bar\\home.html' )[ 1 ];
 
 [posix]: https://en.wikipedia.org/wiki/POSIX
 
-[@stdlib/assert/is-windows]: https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-windows
+[@stdlib/assert/is-windows]: https://github.com/stdlib-js/assert-is-windows
 
 [@stdlib/regexp/basename-posix]: https://github.com/stdlib-js/regexp/tree/main/basename-posix
 
