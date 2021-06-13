@@ -21,8 +21,8 @@
 // MODULES //
 
 var contains = require( '@stdlib/assert/contains' );
-var posix = require( '@stdlib/regexp/dirname-posix' );
-var win32 = require( '@stdlib/regexp/dirname-windows' );
+var posix = require( './../../dirname-posix' );
+var win32 = require( './../../dirname-windows' );
 var IS_WINDOWS = require( '@stdlib/assert/is-windows' );
 
 

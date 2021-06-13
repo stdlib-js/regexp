@@ -43,8 +43,8 @@
 // MODULES //
 
 var setReadOnly = require( '@stdlib/utils/define-nonenumerable-read-only-property' );
-var posix = require( '@stdlib/regexp/extname-posix' ).REGEXP;
-var win32 = require( '@stdlib/regexp/extname-windows' ).REGEXP;
+var posix = require( './../../extname-posix' ).REGEXP;
+var win32 = require( './../../extname-windows' ).REGEXP;
 var IS_WINDOWS = require( '@stdlib/assert/is-windows' );
 var reExtname = require( './main.js' );
 

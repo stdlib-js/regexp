@@ -21,29 +21,29 @@
 /* tslint:disable:max-line-length */
 /* tslint:disable:max-file-line-count */
 
-import reBasename = require( '@stdlib/regexp/basename' );
-import reBasenamePosix = require( '@stdlib/regexp/basename-posix' );
-import reBasenameWindows = require( '@stdlib/regexp/basename-windows' );
-import reColorHexadecimal = require( '@stdlib/regexp/color-hexadecimal' );
-import reDecimalNumber = require( '@stdlib/regexp/decimal-number' );
-import reDirname = require( '@stdlib/regexp/dirname' );
-import reDirnamePosix = require( '@stdlib/regexp/dirname-posix' );
-import reDirnameWindows = require( '@stdlib/regexp/dirname-windows' );
-import reEOL = require( '@stdlib/regexp/eol' );
-import reExtendedLengthPath = require( '@stdlib/regexp/extended-length-path' );
-import reExtname = require( '@stdlib/regexp/extname' );
-import reExtnamePosix = require( '@stdlib/regexp/extname-posix' );
-import reExtnameWindows = require( '@stdlib/regexp/extname-windows' );
-import reFilename = require( '@stdlib/regexp/filename' );
-import reFilenamePosix = require( '@stdlib/regexp/filename-posix' );
-import reFilenameWindows = require( '@stdlib/regexp/filename-windows' );
-import reFunctionName = require( '@stdlib/regexp/function-name' );
-import reNativeFunction = require( '@stdlib/regexp/native-function' );
-import reRegExp = require( '@stdlib/regexp/regexp' );
-import reUncPath = require( '@stdlib/regexp/unc-path' );
-import reUtf16SurrogatePair = require( '@stdlib/regexp/utf16-surrogate-pair' );
-import reUtf16UnpairedSurrogate = require( '@stdlib/regexp/utf16-unpaired-surrogate' );
-import reWhitespace = require( '@stdlib/regexp/whitespace' );
+import reBasename = require( './../../basename' );
+import reBasenamePosix = require( './../../basename-posix' );
+import reBasenameWindows = require( './../../basename-windows' );
+import reColorHexadecimal = require( './../../color-hexadecimal' );
+import reDecimalNumber = require( './../../decimal-number' );
+import reDirname = require( './../../dirname' );
+import reDirnamePosix = require( './../../dirname-posix' );
+import reDirnameWindows = require( './../../dirname-windows' );
+import reEOL = require( './../../eol' );
+import reExtendedLengthPath = require( './../../extended-length-path' );
+import reExtname = require( './../../extname' );
+import reExtnamePosix = require( './../../extname-posix' );
+import reExtnameWindows = require( './../../extname-windows' );
+import reFilename = require( './../../filename' );
+import reFilenamePosix = require( './../../filename-posix' );
+import reFilenameWindows = require( './../../filename-windows' );
+import reFunctionName = require( './../../function-name' );
+import reNativeFunction = require( './../../native-function' );
+import reRegExp = require( './../../regexp' );
+import reUncPath = require( './../../unc-path' );
+import reUtf16SurrogatePair = require( './../../utf16-surrogate-pair' );
+import reUtf16UnpairedSurrogate = require( './../../utf16-unpaired-surrogate' );
+import reWhitespace = require( './../../whitespace' );
 
 /**
 * Interface describing the `regexp` namespace.
