@@ -109,11 +109,39 @@ ext = RE_EXTNAME_POSIX.exec( '/foo/bar/.gitignore' )[ 1 ];
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/regexp/extname`][@stdlib/regexp/extname]: https://github.com/stdlib-js/regexp/tree/main/extname`][@stdlib/regexp/extname
+-   [`@stdlib/regexp/extname-windows`][@stdlib/regexp/extname-windows]: https://github.com/stdlib-js/regexp/tree/main/extname-windows`][@stdlib/regexp/extname-windows
+-   [`@stdlib/utils/extname`][@stdlib/utils/extname]: return a filename extension.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [regexp]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
 
 [posix]: https://en.wikipedia.org/wiki/POSIX
+
+<!-- <related-links> -->
+
+[@stdlib/regexp/extname]: https://github.com/stdlib-js/regexp/tree/main/extname
+
+[@stdlib/regexp/extname-windows]: https://github.com/stdlib-js/regexp/tree/main/extname-windows
+
+[@stdlib/utils/extname]: https://github.com/stdlib-js/utils-extname
+
+<!-- </related-links> -->
 
 </section>
 

@@ -91,11 +91,39 @@ dir = RE_DIRNAME_WINDOWS.exec( 'C:\\foo\\bar\\.gitignore' )[ 1 ];
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/regexp/dirname`][@stdlib/regexp/dirname]: https://github.com/stdlib-js/regexp/tree/main/dirname`][@stdlib/regexp/dirname
+-   [`@stdlib/regexp/dirname-posix`][@stdlib/regexp/dirname-posix]: https://github.com/stdlib-js/regexp/tree/main/dirname-posix`][@stdlib/regexp/dirname-posix
+-   [`@stdlib/utils/dirname`][@stdlib/utils/dirname]: return a directory name.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [regexp]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
 
 [dirname]: https://en.wikipedia.org/wiki/Dirname
+
+<!-- <related-links> -->
+
+[@stdlib/regexp/dirname]: https://github.com/stdlib-js/regexp/tree/main/dirname
+
+[@stdlib/regexp/dirname-posix]: https://github.com/stdlib-js/regexp/tree/main/dirname-posix
+
+[@stdlib/utils/dirname]: https://github.com/stdlib-js/utils-dirname
+
+<!-- </related-links> -->
 
 </section>
 

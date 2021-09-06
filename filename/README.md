@@ -176,6 +176,23 @@ parts = reFilename.REGEXP_WIN32.exec( 'C:\\foo\\bar\\home.html' ).slice();
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/regexp/filename-posix`][@stdlib/regexp/filename-posix]: https://github.com/stdlib-js/regexp/tree/main/filename-posix`][@stdlib/regexp/filename-posix
+-   [`@stdlib/regexp/filename-windows`][@stdlib/regexp/filename-windows]: https://github.com/stdlib-js/regexp/tree/main/filename-windows`][@stdlib/regexp/filename-windows
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [mdn-regexp]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
@@ -184,9 +201,13 @@ parts = reFilename.REGEXP_WIN32.exec( 'C:\\foo\\bar\\home.html' ).slice();
 
 [@stdlib/assert/is-windows]: https://github.com/stdlib-js/assert-is-windows
 
+<!-- <related-links> -->
+
 [@stdlib/regexp/filename-posix]: https://github.com/stdlib-js/regexp/tree/main/filename-posix
 
 [@stdlib/regexp/filename-windows]: https://github.com/stdlib-js/regexp/tree/main/filename-windows
+
+<!-- </related-links> -->
 
 </section>
 

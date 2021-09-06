@@ -118,6 +118,24 @@ ext = reExtname.REGEXP_WIN32.exec( 'C:\\foo\\bar\\home.html' )[ 1 ];
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/regexp/extname-posix`][@stdlib/regexp/extname-posix]: https://github.com/stdlib-js/regexp/tree/main/extname-posix`][@stdlib/regexp/extname-posix
+-   [`@stdlib/regexp/extname-windows`][@stdlib/regexp/extname-windows]: https://github.com/stdlib-js/regexp/tree/main/extname-windows`][@stdlib/regexp/extname-windows
+-   [`@stdlib/utils/extname`][@stdlib/utils/extname]: return a filename extension.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [regexp]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
@@ -126,9 +144,15 @@ ext = reExtname.REGEXP_WIN32.exec( 'C:\\foo\\bar\\home.html' )[ 1 ];
 
 [@stdlib/assert/is-windows]: https://github.com/stdlib-js/assert-is-windows
 
+<!-- <related-links> -->
+
 [@stdlib/regexp/extname-posix]: https://github.com/stdlib-js/regexp/tree/main/extname-posix
 
 [@stdlib/regexp/extname-windows]: https://github.com/stdlib-js/regexp/tree/main/extname-windows
+
+[@stdlib/utils/extname]: https://github.com/stdlib-js/utils-extname
+
+<!-- </related-links> -->
 
 </section>
 

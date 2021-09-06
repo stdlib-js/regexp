@@ -163,6 +163,22 @@ var arr = str.split( RE_WHITESPACE );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/assert/is-whitespace`][@stdlib/assert/is-whitespace]: test whether a string contains only white space characters.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [regexp]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
@@ -170,6 +186,12 @@ var arr = str.split( RE_WHITESPACE );
 [whitespace]: https://en.wikipedia.org/wiki/Whitespace_character
 
 [mdn-regexp-flags]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions#advanced_searching_with_flags_2
+
+<!-- <related-links> -->
+
+[@stdlib/assert/is-whitespace]: https://github.com/stdlib-js/assert-is-whitespace
+
+<!-- </related-links> -->
 
 </section>
 

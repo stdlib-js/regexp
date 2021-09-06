@@ -97,6 +97,24 @@ dir = RE_DIRNAME_POSIX.exec( './foo/bar/.gitignore' )[ 1 ];
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/regexp/dirname`][@stdlib/regexp/dirname]: https://github.com/stdlib-js/regexp/tree/main/dirname`][@stdlib/regexp/dirname
+-   [`@stdlib/regexp/dirname-windows`][@stdlib/regexp/dirname-windows]: https://github.com/stdlib-js/regexp/tree/main/dirname-windows`][@stdlib/regexp/dirname-windows
+-   [`@stdlib/utils/dirname`][@stdlib/utils/dirname]: return a directory name.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [regexp]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
@@ -104,6 +122,16 @@ dir = RE_DIRNAME_POSIX.exec( './foo/bar/.gitignore' )[ 1 ];
 [posix]: https://en.wikipedia.org/wiki/POSIX
 
 [dirname]: https://en.wikipedia.org/wiki/Dirname
+
+<!-- <related-links> -->
+
+[@stdlib/regexp/dirname]: https://github.com/stdlib-js/regexp/tree/main/dirname
+
+[@stdlib/regexp/dirname-windows]: https://github.com/stdlib-js/regexp/tree/main/dirname-windows
+
+[@stdlib/utils/dirname]: https://github.com/stdlib-js/utils-dirname
+
+<!-- </related-links> -->
 
 </section>
 
