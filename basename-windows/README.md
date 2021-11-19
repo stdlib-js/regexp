@@ -97,8 +97,8 @@ base = RE_BASENAME_WINDOWS.exec( 'C:\\foo\\bar\\.gitignore' )[ 1 ];
 
 ## See Also
 
--   [`@stdlib/regexp/basename`][@stdlib/regexp/basename]: https://github.com/stdlib-js/regexp/tree/main/basename`][@stdlib/regexp/basename
--   [`@stdlib/regexp/basename-posix`][@stdlib/regexp/basename-posix]: https://github.com/stdlib-js/regexp/tree/main/basename-posix`][@stdlib/regexp/basename-posix
+-   <span class="package-name">[`@stdlib/regexp/basename`][@stdlib/regexp/basename]</span><span class="delimiter">: </span><span class="description">return a regular expression to capture the last part of a path.</span>
+-   <span class="package-name">[`@stdlib/regexp/basename-posix`][@stdlib/regexp/basename-posix]</span><span class="delimiter">: </span><span class="description">return a regular expression to capture the last part of a POSIX path.</span>
 
 </section>
 

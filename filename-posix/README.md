@@ -203,8 +203,8 @@ parts = RE_FILENAME_POSIX.exec( '/foo/bar/.gitignore' ).slice();
 
 ## See Also
 
--   [`@stdlib/regexp/filename`][@stdlib/regexp/filename]: https://github.com/stdlib-js/regexp/tree/main/filename`][@stdlib/regexp/filename
--   [`@stdlib/regexp/filename-windows`][@stdlib/regexp/filename-windows]: https://github.com/stdlib-js/regexp/tree/main/filename-windows`][@stdlib/regexp/filename-windows
+-   <span class="package-name">[`@stdlib/regexp/filename`][@stdlib/regexp/filename]</span><span class="delimiter">: </span><span class="description">return a regular expression to split a filename.</span>
+-   <span class="package-name">[`@stdlib/regexp/filename-windows`][@stdlib/regexp/filename-windows]</span><span class="delimiter">: </span><span class="description">return a regular expression to split a Windows filename.</span>
 
 </section>
 
