@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/regexp",
-  "version": "0.0.13",
+  "version": "0.0.0",
   "description": "Regular expressions.",
   "license": "Apache-2.0",
   "author": {
@@ -37,13 +37,13 @@
   },
   "dependencies": {
     "@stdlib/assert": "github:stdlib-js/assert#main",
+    "@stdlib/string": "github:stdlib-js/string#main",
     "@stdlib/utils": "github:stdlib-js/utils#main"
   },
   "devDependencies": {
     "@stdlib/array": "github:stdlib-js/array",
     "@stdlib/bench": "github:stdlib-js/bench",
     "@stdlib/number": "github:stdlib-js/number",
-    "@stdlib/string": "github:stdlib-js/string",
     "proxyquire": "^2.0.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
