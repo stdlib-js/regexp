@@ -56,13 +56,13 @@ function validate( opts, options ) {
 	if ( hasOwnProp( options, 'flags' ) ) {
 		opts.flags = options.flags;
 		if ( !isString( opts.flags ) ) {
-			return new TypeError( format( 'invalid option. `%s` option must be a string primitive. Option: `%s`.', 'flags', opts.flags ) );
+			return new TypeError( format( 'invalid option. `%s` option must be a string. Option: `%s`.', 'flags', opts.flags ) );
 		}
 	}
 	if ( hasOwnProp( options, 'capture' ) ) {
 		opts.capture = options.capture;
 		if ( !isBoolean( opts.capture ) ) {
-			return new TypeError( format( 'invalid option. `%s` option must be a boolean primitive. Option: `%s`.', 'capture', opts.capture ) );
+			return new TypeError( format( 'invalid option. `%s` option must be a boolean. Option: `%s`.', 'capture', opts.capture ) );
 		}
 	}
 	return null;
