@@ -81,9 +81,12 @@ The following regular expressions are currently exported:
 -   <span class="signature">[`reFilenamePosix()`][@stdlib/regexp/filename-posix]</span><span class="delimiter">: </span><span class="description">regular expression to split a POSIX filename.</span>
 -   <span class="signature">[`reFilenameWindows()`][@stdlib/regexp/filename-windows]</span><span class="delimiter">: </span><span class="description">regular expression to split a Windows filename.</span>
 -   <span class="signature">[`reFilename( [platform] )`][@stdlib/regexp/filename]</span><span class="delimiter">: </span><span class="description">regular expression to split a filename.</span>
--   <span class="signature">[`reFunctionName`][@stdlib/regexp/function-name]</span><span class="delimiter">: </span><span class="description">regular expression to capture a function name.</span>
+-   <span class="signature">[`reFunctionName()`][@stdlib/regexp/function-name]</span><span class="delimiter">: </span><span class="description">regular expression to capture a function name.</span>
 -   <span class="signature">[`reNativeFunction()`][@stdlib/regexp/native-function]</span><span class="delimiter">: </span><span class="description">regular expression to match a native function.</span>
 -   <span class="signature">[`reRegExp()`][@stdlib/regexp/regexp]</span><span class="delimiter">: </span><span class="description">regular expression to parse a regular expression string.</span>
+-   <span class="signature">[`reviveRegExp( key, value )`][@stdlib/regexp/reviver]</span><span class="delimiter">: </span><span class="description">revive a JSON-serialized regular expression.</span>
+-   <span class="signature">[`reSemVer()`][@stdlib/regexp/semver]</span><span class="delimiter">: </span><span class="description">regular expression to match a semantic version string.</span>
+-   <span class="signature">[`regexp2json( regexp )`][@stdlib/regexp/to-json]</span><span class="delimiter">: </span><span class="description">return a JSON representation of a regular expression.</span>
 -   <span class="signature">[`reUncPath()`][@stdlib/regexp/unc-path]</span><span class="delimiter">: </span><span class="description">regular expression to parse a UNC path.</span>
 -   <span class="signature">[`reUtf16SurrogatePair()`][@stdlib/regexp/utf16-surrogate-pair]</span><span class="delimiter">: </span><span class="description">regular expression to match a UTF-16 surrogate pair.</span>
 -   <span class="signature">[`reUtf16UnpairedSurrogate()`][@stdlib/regexp/utf16-unpaired-surrogate]</span><span class="delimiter">: </span><span class="description">regular expression to match an unpaired UTF-16 surrogate.</span>
@@ -230,6 +233,12 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [@stdlib/regexp/native-function]: https://github.com/stdlib-js/regexp/tree/main/native-function
 
 [@stdlib/regexp/regexp]: https://github.com/stdlib-js/regexp/tree/main/regexp
+
+[@stdlib/regexp/reviver]: https://github.com/stdlib-js/regexp/tree/main/reviver
+
+[@stdlib/regexp/semver]: https://github.com/stdlib-js/regexp/tree/main/semver
+
+[@stdlib/regexp/to-json]: https://github.com/stdlib-js/regexp/tree/main/to-json
 
 [@stdlib/regexp/unc-path]: https://github.com/stdlib-js/regexp/tree/main/unc-path
 
