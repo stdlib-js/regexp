@@ -44,6 +44,7 @@
   "devDependencies": {
     "@stdlib/array": "github:stdlib-js/array",
     "@stdlib/bench": "github:stdlib-js/bench",
+    "@stdlib/boolean": "github:stdlib-js/boolean",
     "@stdlib/number": "github:stdlib-js/number",
     "proxyquire": "^2.0.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
