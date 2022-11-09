@@ -3,8 +3,30 @@
   "version": "0.0.13",
   "description": "Regular expressions.",
   "license": "Apache-2.0",
-  "type": "module",
-  "main": "./index.mjs",
+  "author": {
+    "name": "The Stdlib Authors",
+    "url": "https://github.com/stdlib-js/stdlib/graphs/contributors"
+  },
+  "contributors": [
+    {
+      "name": "The Stdlib Authors",
+      "url": "https://github.com/stdlib-js/stdlib/graphs/contributors"
+    }
+  ],
+  "main": "./lib",
+  "directories": {
+    "doc": "./docs",
+    "example": "./examples",
+    "lib": "./lib",
+    "test": "./test"
+  },
+  "types": "./docs/types",
+  "scripts": {
+    "test": "make test",
+    "test-cov": "make test-cov",
+    "examples": "make examples",
+    "benchmark": "make benchmark"
+  },
   "homepage": "https://stdlib.io",
   "repository": {
     "type": "git",
@@ -13,6 +35,38 @@
   "bugs": {
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
+  "dependencies": {
+    "@stdlib/assert": "github:stdlib-js/assert#main",
+    "@stdlib/function": "github:stdlib-js/function#main",
+    "@stdlib/string": "github:stdlib-js/string#main",
+    "@stdlib/utils": "github:stdlib-js/utils#main",
+    "@stdlib/error-tools-fmtprodmsg": "^0.0.x"
+  },
+  "devDependencies": {
+    "@stdlib/array": "github:stdlib-js/array",
+    "@stdlib/bench": "github:stdlib-js/bench",
+    "@stdlib/boolean": "github:stdlib-js/boolean",
+    "@stdlib/number": "github:stdlib-js/number",
+    "proxyquire": "^2.0.0",
+    "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
+    "istanbul": "^0.4.1",
+    "tap-spec": "5.x.x"
+  },
+  "engines": {
+    "node": ">=0.10.0",
+    "npm": ">2.7.0"
+  },
+  "os": [
+    "aix",
+    "darwin",
+    "freebsd",
+    "linux",
+    "macos",
+    "openbsd",
+    "sunos",
+    "win32",
+    "windows"
+  ],
   "keywords": [
     "stdlib",
     "standard",

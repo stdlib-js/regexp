@@ -24,20 +24,30 @@ limitations under the License.
 
 > Regular expressions.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/regexp
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import regexp from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp@esm/index.mjs';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { reBasename, reBasenamePosix, reBasenameWindows, reColorHexadecimal, reDecimalNumber, reDirname, reDirnamePosix, reDirnameWindows, reEOL, reExtendedLengthPath, reExtname, reExtnamePosix, reExtnameWindows, reFilename, reFilenamePosix, reFilenameWindows, reFunctionName, reNativeFunction, reRegExp, reUncPath, reUtf16SurrogatePair, reUtf16UnpairedSurrogate, reWhitespace } from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp@esm/index.mjs';
+var regexp = require( '@stdlib/regexp' );
 ```
 
 #### regexp
@@ -71,9 +81,12 @@ The following regular expressions are currently exported:
 -   <span class="signature">[`reFilenamePosix()`][@stdlib/regexp/filename-posix]</span><span class="delimiter">: </span><span class="description">regular expression to split a POSIX filename.</span>
 -   <span class="signature">[`reFilenameWindows()`][@stdlib/regexp/filename-windows]</span><span class="delimiter">: </span><span class="description">regular expression to split a Windows filename.</span>
 -   <span class="signature">[`reFilename( [platform] )`][@stdlib/regexp/filename]</span><span class="delimiter">: </span><span class="description">regular expression to split a filename.</span>
--   <span class="signature">[`reFunctionName`][@stdlib/regexp/function-name]</span><span class="delimiter">: </span><span class="description">regular expression to capture a function name.</span>
+-   <span class="signature">[`reFunctionName()`][@stdlib/regexp/function-name]</span><span class="delimiter">: </span><span class="description">regular expression to capture a function name.</span>
 -   <span class="signature">[`reNativeFunction()`][@stdlib/regexp/native-function]</span><span class="delimiter">: </span><span class="description">regular expression to match a native function.</span>
 -   <span class="signature">[`reRegExp()`][@stdlib/regexp/regexp]</span><span class="delimiter">: </span><span class="description">regular expression to parse a regular expression string.</span>
+-   <span class="signature">[`reviveRegExp( key, value )`][@stdlib/regexp/reviver]</span><span class="delimiter">: </span><span class="description">revive a JSON-serialized regular expression.</span>
+-   <span class="signature">[`reSemVer()`][@stdlib/regexp/semver]</span><span class="delimiter">: </span><span class="description">regular expression to match a semantic version string.</span>
+-   <span class="signature">[`regexp2json( regexp )`][@stdlib/regexp/to-json]</span><span class="delimiter">: </span><span class="description">return a JSON representation of a regular expression.</span>
 -   <span class="signature">[`reUncPath()`][@stdlib/regexp/unc-path]</span><span class="delimiter">: </span><span class="description">regular expression to parse a UNC path.</span>
 -   <span class="signature">[`reUtf16SurrogatePair()`][@stdlib/regexp/utf16-surrogate-pair]</span><span class="delimiter">: </span><span class="description">regular expression to match a UTF-16 surrogate pair.</span>
 -   <span class="signature">[`reUtf16UnpairedSurrogate()`][@stdlib/regexp/utf16-unpaired-surrogate]</span><span class="delimiter">: </span><span class="description">regular expression to match an unpaired UTF-16 surrogate.</span>
@@ -93,20 +106,11 @@ The following regular expressions are currently exported:
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils/keys@esm/index.mjs';
-import regexp from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp@esm/index.mjs';
+```javascript
+var objectKeys = require( '@stdlib/utils/keys' );
+var regexp = require( '@stdlib/regexp' );
 
 console.log( objectKeys( regexp ) );
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -130,7 +134,7 @@ console.log( objectKeys( regexp ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -229,6 +233,12 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [@stdlib/regexp/native-function]: https://github.com/stdlib-js/regexp/tree/main/native-function
 
 [@stdlib/regexp/regexp]: https://github.com/stdlib-js/regexp/tree/main/regexp
+
+[@stdlib/regexp/reviver]: https://github.com/stdlib-js/regexp/tree/main/reviver
+
+[@stdlib/regexp/semver]: https://github.com/stdlib-js/regexp/tree/main/semver
+
+[@stdlib/regexp/to-json]: https://github.com/stdlib-js/regexp/tree/main/to-json
 
 [@stdlib/regexp/unc-path]: https://github.com/stdlib-js/regexp/tree/main/unc-path
 
