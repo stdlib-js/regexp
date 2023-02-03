@@ -24,20 +24,30 @@ limitations under the License.
 
 > Regular expressions.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/regexp
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import regexp from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp@esm/index.mjs';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { reBasename, reBasenamePosix, reBasenameWindows, reColorHexadecimal, reDecimalNumber, reDirname, reDirnamePosix, reDirnameWindows, reDurationString, reEOL, reExtendedLengthPath, reExtname, reExtnamePosix, reExtnameWindows, reFilename, reFilenamePosix, reFilenameWindows, reFunctionName, reNativeFunction, reRegExp, reSemVer, reUncPath, reUtf16SurrogatePair, reUtf16UnpairedSurrogate, reWhitespace, regexp2json, reviveRegExp } from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp@esm/index.mjs';
+var regexp = require( '@stdlib/regexp' );
 ```
 
 #### regexp
@@ -63,6 +73,7 @@ The following regular expressions are currently exported:
 -   <span class="signature">[`reDirnamePosix()`][@stdlib/regexp/dirname-posix]</span><span class="delimiter">: </span><span class="description">regular expression to capture a POSIX path dirname.</span>
 -   <span class="signature">[`reDirnameWindows()`][@stdlib/regexp/dirname-windows]</span><span class="delimiter">: </span><span class="description">regular expression to capture a Windows path dirname.</span>
 -   <span class="signature">[`reDirname( [platform] )`][@stdlib/regexp/dirname]</span><span class="delimiter">: </span><span class="description">regular expression to capture a path dirname.</span>
+-   <span class="signature">[`reDurationString()`][@stdlib/regexp/duration-string]</span><span class="delimiter">: </span><span class="description">regular expression to match a duration string.</span>
 -   <span class="signature">[`reEOL( [options] )`][@stdlib/regexp/eol]</span><span class="delimiter">: </span><span class="description">regular expression to match a newline character sequence.</span>
 -   <span class="signature">[`reExtendedLengthPath()`][@stdlib/regexp/extended-length-path]</span><span class="delimiter">: </span><span class="description">regular expression to detect an extended-length path.</span>
 -   <span class="signature">[`reExtnamePosix()`][@stdlib/regexp/extname-posix]</span><span class="delimiter">: </span><span class="description">regular expression to capture a POSIX filename extension.</span>
@@ -96,20 +107,11 @@ The following regular expressions are currently exported:
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils/keys@esm/index.mjs';
-import regexp from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp@esm/index.mjs';
+```javascript
+var objectKeys = require( '@stdlib/utils/keys' );
+var regexp = require( '@stdlib/regexp' );
 
 console.log( objectKeys( regexp ) );
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -133,7 +135,7 @@ console.log( objectKeys( regexp ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -210,6 +212,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [@stdlib/regexp/dirname-windows]: https://github.com/stdlib-js/regexp/tree/main/dirname-windows
 
 [@stdlib/regexp/dirname]: https://github.com/stdlib-js/regexp/tree/main/dirname
+
+[@stdlib/regexp/duration-string]: https://github.com/stdlib-js/regexp/tree/main/duration-string
 
 [@stdlib/regexp/eol]: https://github.com/stdlib-js/regexp/tree/main/eol
 
