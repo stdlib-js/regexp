@@ -24,38 +24,30 @@ limitations under the License.
 
 > Regular expressions.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/regexp
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-regexp = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var regexp = require( 'path/to/vendor/umd/regexp/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/regexp@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.regexp;
-})();
-</script>
+var regexp = require( '@stdlib/regexp' );
 ```
 
 #### regexp
@@ -81,6 +73,7 @@ The following regular expressions are currently exported:
 -   <span class="signature">[`reDirnamePosix()`][@stdlib/regexp/dirname-posix]</span><span class="delimiter">: </span><span class="description">regular expression to capture a POSIX path dirname.</span>
 -   <span class="signature">[`reDirnameWindows()`][@stdlib/regexp/dirname-windows]</span><span class="delimiter">: </span><span class="description">regular expression to capture a Windows path dirname.</span>
 -   <span class="signature">[`reDirname( [platform] )`][@stdlib/regexp/dirname]</span><span class="delimiter">: </span><span class="description">regular expression to capture a path dirname.</span>
+-   <span class="signature">[`reDurationString()`][@stdlib/regexp/duration-string]</span><span class="delimiter">: </span><span class="description">regular expression to match a duration string.</span>
 -   <span class="signature">[`reEOL( [options] )`][@stdlib/regexp/eol]</span><span class="delimiter">: </span><span class="description">regular expression to match a newline character sequence.</span>
 -   <span class="signature">[`reExtendedLengthPath()`][@stdlib/regexp/extended-length-path]</span><span class="delimiter">: </span><span class="description">regular expression to detect an extended-length path.</span>
 -   <span class="signature">[`reExtnamePosix()`][@stdlib/regexp/extname-posix]</span><span class="delimiter">: </span><span class="description">regular expression to capture a POSIX filename extension.</span>
@@ -114,21 +107,11 @@ The following regular expressions are currently exported:
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils/keys@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/regexp@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var objectKeys = require( '@stdlib/utils/keys' );
+var regexp = require( '@stdlib/regexp' );
 
 console.log( objectKeys( regexp ) );
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -229,6 +212,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [@stdlib/regexp/dirname-windows]: https://github.com/stdlib-js/regexp/tree/main/dirname-windows
 
 [@stdlib/regexp/dirname]: https://github.com/stdlib-js/regexp/tree/main/dirname
+
+[@stdlib/regexp/duration-string]: https://github.com/stdlib-js/regexp/tree/main/duration-string
 
 [@stdlib/regexp/eol]: https://github.com/stdlib-js/regexp/tree/main/eol
 
