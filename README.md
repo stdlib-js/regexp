@@ -73,6 +73,7 @@ The following regular expressions are currently exported:
 -   <span class="signature">[`reDirnamePosix()`][@stdlib/regexp/dirname-posix]</span><span class="delimiter">: </span><span class="description">regular expression to capture a POSIX path dirname.</span>
 -   <span class="signature">[`reDirnameWindows()`][@stdlib/regexp/dirname-windows]</span><span class="delimiter">: </span><span class="description">regular expression to capture a Windows path dirname.</span>
 -   <span class="signature">[`reDirname( [platform] )`][@stdlib/regexp/dirname]</span><span class="delimiter">: </span><span class="description">regular expression to capture a path dirname.</span>
+-   <span class="signature">[`reDurationString()`][@stdlib/regexp/duration-string]</span><span class="delimiter">: </span><span class="description">regular expression to match a duration string.</span>
 -   <span class="signature">[`reEOL( [options] )`][@stdlib/regexp/eol]</span><span class="delimiter">: </span><span class="description">regular expression to match a newline character sequence.</span>
 -   <span class="signature">[`reExtendedLengthPath()`][@stdlib/regexp/extended-length-path]</span><span class="delimiter">: </span><span class="description">regular expression to detect an extended-length path.</span>
 -   <span class="signature">[`reExtnamePosix()`][@stdlib/regexp/extname-posix]</span><span class="delimiter">: </span><span class="description">regular expression to capture a POSIX filename extension.</span>
@@ -211,6 +212,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [@stdlib/regexp/dirname-windows]: https://github.com/stdlib-js/regexp/tree/main/dirname-windows
 
 [@stdlib/regexp/dirname]: https://github.com/stdlib-js/regexp/tree/main/dirname
+
+[@stdlib/regexp/duration-string]: https://github.com/stdlib-js/regexp/tree/main/duration-string
 
 [@stdlib/regexp/eol]: https://github.com/stdlib-js/regexp/tree/main/eol
 
