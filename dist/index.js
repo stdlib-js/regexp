@@ -127,7 +127,7 @@ var Aa=V(),Da=Aa();gi.exports=Da
 });var Oi=r(function(Gn,di){
 var Ia=require('@stdlib/utils/define-nonenumerable-read-only-property/dist'),Gi=V(),ha=Xi();Ia(Gi,"REGEXP",ha);di.exports=Gi
 });var _i=r(function(dn,Fi){
-var Na=require('@stdlib/assert/is-regexp/dist'),Wa=require('@stdlib/string/format/dist'),Ta="/".charCodeAt(0);function ya(e){var i;if(!Na(e))throw new TypeError(Wa('0sdEP',e));for(e=e.toString(),i=e.length-1;i>=0&&e.charCodeAt(i)!==Ta;i--);return{type:"RegExp",pattern:e.substring(1,i),flags:e.substring(i+1)}}Fi.exports=ya
+var Na=require('@stdlib/assert/is-regexp/dist'),Wa=require('@stdlib/string/format/dist'),Ta=47;function ya(e){var i;if(!Na(e))throw new TypeError(Wa('0sdEP',e));for(e=e.toString(),i=e.length-1;i>=0&&e.charCodeAt(i)!==Ta;i--);return{type:"RegExp",pattern:e.substring(1,i),flags:e.substring(i+1)}}Fi.exports=ya
 });var wi=r(function(On,Si){
 var Ba=_i();Si.exports=Ba
 });var j=r(function(Fn,Ai){
