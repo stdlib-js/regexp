@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import regexp from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp@deno/mod.js';
+import regexp from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp@v0.2.1-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { reBasename, reBasenamePosix, reBasenameWindows, reColorHexadecimal, reDecimalNumber, reDirname, reDirnamePosix, reDirnameWindows, reDurationString, reEOL, reExtendedLengthPath, reExtname, reExtnamePosix, reExtnameWindows, reFilename, reFilenamePosix, reFilenameWindows, reFunctionName, reNativeFunction, reRegExp, reSemVer, reUncPath, reUtf16SurrogatePair, reUtf16UnpairedSurrogate, reWhitespace, regexp2json, reviveRegExp } from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp@deno/mod.js';
+import { reBasename, reBasenamePosix, reBasenameWindows, reColorHexadecimal, reDecimalNumber, reDirname, reDirnamePosix, reDirnameWindows, reDurationString, reEOL, reExtendedLengthPath, reExtname, reExtnamePosix, reExtnameWindows, reFilename, reFilenamePosix, reFilenameWindows, reFunctionName, reNativeFunction, reRegExp, reSemVer, reUncPath, reUtf16SurrogatePair, reUtf16UnpairedSurrogate, reWhitespace, regexp2json, reviveRegExp } from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp@v0.2.1-deno/mod.js';
 ```
 
 #### regexp
@@ -110,7 +110,7 @@ The following regular expressions are currently exported:
 
 ```javascript
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils/keys@deno/mod.js';
-import regexp from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp@deno/mod.js';
+import regexp from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp@v0.2.1-deno/mod.js';
 
 console.log( objectKeys( regexp ) );
 ```
