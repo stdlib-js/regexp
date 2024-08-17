@@ -2,9 +2,9 @@
 
 > Package changelog.
 
-<section class="release" id="unreleased">
+<section class="release" id="v0.3.0">
 
-## Unreleased (2024-08-03)
+## 0.3.0 (2024-08-17)
 
 <section class="packages">
 
@@ -45,369 +45,23 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 <!-- /.release -->
 
+<section class="release" id="v0.2.1">
+
 ## 0.2.1 (2024-02-05)
 
-<section class="packages">
-
-### Packages
+No changes reported for this release.
 
 </section>
 
-<!-- /.packages -->
+<!-- /.release -->
 
-<section class="commits">
-
-### Commits
-
-<details>
-
-</details>
-
-</section>
-
-<!-- /.commits -->
+<section class="release" id="v0.2.0">
 
 ## 0.2.0 (2024-02-05)
 
 <section class="packages">
 
 ### Packages
-
-<section class="package" id="regexp-v0.2.0">
-
-#### [@stdlib/regexp](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/regexp)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="regexp-basename-v0.2.0">
-
-#### [@stdlib/regexp/basename](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/regexp/basename)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="regexp-basename-posix-v0.2.0">
-
-#### [@stdlib/regexp/basename-posix](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/regexp/basename-posix)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="regexp-basename-windows-v0.2.0">
-
-#### [@stdlib/regexp/basename-windows](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/regexp/basename-windows)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="regexp-color-hexadecimal-v0.2.0">
-
-#### [@stdlib/regexp/color-hexadecimal](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/regexp/color-hexadecimal)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="regexp-decimal-number-v0.2.0">
-
-#### [@stdlib/regexp/decimal-number](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/regexp/decimal-number)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="regexp-dirname-v0.2.0">
-
-#### [@stdlib/regexp/dirname](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/regexp/dirname)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="regexp-dirname-posix-v0.2.0">
-
-#### [@stdlib/regexp/dirname-posix](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/regexp/dirname-posix)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="regexp-dirname-windows-v0.2.0">
-
-#### [@stdlib/regexp/dirname-windows](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/regexp/dirname-windows)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="regexp-duration-string-v0.2.0">
-
-#### [@stdlib/regexp/duration-string](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/regexp/duration-string)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="regexp-eol-v0.2.0">
-
-#### [@stdlib/regexp/eol](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/regexp/eol)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="regexp-extended-length-path-v0.2.0">
-
-#### [@stdlib/regexp/extended-length-path](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/regexp/extended-length-path)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="regexp-extname-v0.2.0">
-
-#### [@stdlib/regexp/extname](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/regexp/extname)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="regexp-extname-posix-v0.2.0">
-
-#### [@stdlib/regexp/extname-posix](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/regexp/extname-posix)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="regexp-extname-windows-v0.2.0">
-
-#### [@stdlib/regexp/extname-windows](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/regexp/extname-windows)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="regexp-filename-v0.2.0">
-
-#### [@stdlib/regexp/filename](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/regexp/filename)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="regexp-filename-posix-v0.2.0">
-
-#### [@stdlib/regexp/filename-posix](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/regexp/filename-posix)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="regexp-filename-windows-v0.2.0">
-
-#### [@stdlib/regexp/filename-windows](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/regexp/filename-windows)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="regexp-function-name-v0.2.0">
-
-#### [@stdlib/regexp/function-name](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/regexp/function-name)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="regexp-native-function-v0.2.0">
-
-#### [@stdlib/regexp/native-function](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/regexp/native-function)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="regexp-regexp-v0.2.0">
-
-#### [@stdlib/regexp/regexp](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/regexp/regexp)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="regexp-reviver-v0.2.0">
-
-#### [@stdlib/regexp/reviver](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/regexp/reviver)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="regexp-semver-v0.2.0">
-
-#### [@stdlib/regexp/semver](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/regexp/semver)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="regexp-to-json-v0.2.0">
-
-#### [@stdlib/regexp/to-json](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/regexp/to-json)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="regexp-unc-path-v0.2.0">
-
-#### [@stdlib/regexp/unc-path](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/regexp/unc-path)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="regexp-utf16-surrogate-pair-v0.2.0">
-
-#### [@stdlib/regexp/utf16-surrogate-pair](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/regexp/utf16-surrogate-pair)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="regexp-utf16-unpaired-surrogate-v0.2.0">
-
-#### [@stdlib/regexp/utf16-unpaired-surrogate](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/regexp/utf16-unpaired-surrogate)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="regexp-whitespace-v0.2.0">
-
-#### [@stdlib/regexp/whitespace](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/regexp/whitespace)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
 
 </section>
 
@@ -444,27 +98,21 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 <!-- /.commits -->
 
+</section>
+
+<!-- /.release -->
+
+<section class="release" id="v0.1.1">
+
 ## 0.1.1 (2023-11-08)
 
-<section class="packages">
-
-### Packages
+No changes reported for this release.
 
 </section>
 
-<!-- /.packages -->
+<!-- /.release -->
 
-<section class="commits">
-
-### Commits
-
-<details>
-
-</details>
-
-</section>
-
-<!-- /.commits -->
+<section class="release" id="v0.1.0">
 
 ## 0.1.0 (2023-11-08)
 
@@ -1412,289 +1060,137 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 <!-- /.commits -->
 
+</section>
+
+<!-- /.release -->
+
+<section class="release" id="v0.0.13">
+
 ## 0.0.13 (2021-08-22)
 
-<section class="packages">
-
-### Packages
+No changes reported for this release.
 
 </section>
 
-<!-- /.packages -->
+<!-- /.release -->
 
-<section class="commits">
-
-### Commits
-
-<details>
-
-</details>
-
-</section>
-
-<!-- /.commits -->
+<section class="release" id="v0.0.12">
 
 ## 0.0.12 (2021-07-09)
 
-<section class="packages">
-
-### Packages
+No changes reported for this release.
 
 </section>
 
-<!-- /.packages -->
+<!-- /.release -->
 
-<section class="commits">
-
-### Commits
-
-<details>
-
-</details>
-
-</section>
-
-<!-- /.commits -->
+<section class="release" id="v0.0.11">
 
 ## 0.0.11 (2021-07-07)
 
-<section class="packages">
-
-### Packages
+No changes reported for this release.
 
 </section>
 
-<!-- /.packages -->
+<!-- /.release -->
 
-<section class="commits">
-
-### Commits
-
-<details>
-
-</details>
-
-</section>
-
-<!-- /.commits -->
+<section class="release" id="v0.0.10">
 
 ## 0.0.10 (2021-06-27)
 
-<section class="packages">
-
-### Packages
+No changes reported for this release.
 
 </section>
 
-<!-- /.packages -->
+<!-- /.release -->
 
-<section class="commits">
-
-### Commits
-
-<details>
-
-</details>
-
-</section>
-
-<!-- /.commits -->
+<section class="release" id="v0.0.9">
 
 ## 0.0.9 (2021-06-16)
 
-<section class="packages">
-
-### Packages
+No changes reported for this release.
 
 </section>
 
-<!-- /.packages -->
+<!-- /.release -->
 
-<section class="commits">
-
-### Commits
-
-<details>
-
-</details>
-
-</section>
-
-<!-- /.commits -->
+<section class="release" id="v0.0.8">
 
 ## 0.0.8 (2021-06-15)
 
-<section class="packages">
-
-### Packages
+No changes reported for this release.
 
 </section>
 
-<!-- /.packages -->
+<!-- /.release -->
 
-<section class="commits">
-
-### Commits
-
-<details>
-
-</details>
-
-</section>
-
-<!-- /.commits -->
+<section class="release" id="v0.0.7">
 
 ## 0.0.7 (2021-06-14)
 
-<section class="packages">
-
-### Packages
+No changes reported for this release.
 
 </section>
 
-<!-- /.packages -->
+<!-- /.release -->
 
-<section class="commits">
-
-### Commits
-
-<details>
-
-</details>
-
-</section>
-
-<!-- /.commits -->
+<section class="release" id="v0.0.6">
 
 ## 0.0.6 (2021-06-13)
 
-<section class="packages">
-
-### Packages
+No changes reported for this release.
 
 </section>
 
-<!-- /.packages -->
+<!-- /.release -->
 
-<section class="commits">
-
-### Commits
-
-<details>
-
-</details>
-
-</section>
-
-<!-- /.commits -->
+<section class="release" id="v0.0.5">
 
 ## 0.0.5 (2021-06-12)
 
-<section class="packages">
-
-### Packages
+No changes reported for this release.
 
 </section>
 
-<!-- /.packages -->
+<!-- /.release -->
 
-<section class="commits">
-
-### Commits
-
-<details>
-
-</details>
-
-</section>
-
-<!-- /.commits -->
+<section class="release" id="v0.0.4">
 
 ## 0.0.4 (2021-06-12)
 
-<section class="packages">
-
-### Packages
+No changes reported for this release.
 
 </section>
 
-<!-- /.packages -->
+<!-- /.release -->
 
-<section class="commits">
-
-### Commits
-
-<details>
-
-</details>
-
-</section>
-
-<!-- /.commits -->
+<section class="release" id="v0.0.3">
 
 ## 0.0.3 (2021-06-12)
 
-<section class="packages">
-
-### Packages
+No changes reported for this release.
 
 </section>
 
-<!-- /.packages -->
+<!-- /.release -->
 
-<section class="commits">
-
-### Commits
-
-<details>
-
-</details>
-
-</section>
-
-<!-- /.commits -->
+<section class="release" id="v0.0.2">
 
 ## 0.0.2 (2021-06-10)
 
-<section class="packages">
-
-### Packages
+No changes reported for this release.
 
 </section>
 
-<!-- /.packages -->
+<!-- /.release -->
 
-<section class="commits">
-
-### Commits
-
-<details>
-
-</details>
-
-</section>
-
-<!-- /.commits -->
+<section class="release" id="v0.0.1">
 
 ## 0.0.1 (2021-06-10)
 
-<section class="packages">
-
-### Packages
+No changes reported for this release.
 
 </section>
 
-<!-- /.packages -->
-
-<section class="commits">
-
-### Commits
-
-<details>
-
-</details>
-
-</section>
-
-<!-- /.commits -->
+<!-- /.release -->
 
