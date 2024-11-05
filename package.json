@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/regexp",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Regular expressions.",
   "license": "Apache-2.0",
   "author": {
