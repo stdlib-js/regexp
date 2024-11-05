@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import regexp from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/regexp/tags). For example,
+
+```javascript
 import regexp from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp@v0.3.2-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { reBasename, reBasenamePosix, reBasenameWindows, reColorHexadecimal, reDecimalNumber, reDirname, reDirnamePosix, reDirnameWindows, reDurationString, reEOL, reExtendedLengthPath, reExtname, reExtnamePosix, reExtnameWindows, reFilename, reFilenamePosix, reFilenameWindows, reFunctionName, reNativeFunction, reRegExp, reSemVer, reUncPath, reUtf16SurrogatePair, reUtf16UnpairedSurrogate, reWhitespace, regexp2json, reviveRegExp } from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp@v0.3.2-esm/index.mjs';
+import { reBasename, reBasenamePosix, reBasenameWindows, reColorHexadecimal, reDecimalNumber, reDirname, reDirnamePosix, reDirnameWindows, reDurationString, reEOL, reExtendedLengthPath, reExtname, reExtnamePosix, reExtnameWindows, reFilename, reFilenamePosix, reFilenameWindows, reFunctionName, reNativeFunction, reRegExp, reSemVer, reUncPath, reUtf16SurrogatePair, reUtf16UnpairedSurrogate, reWhitespace, regexp2json, reviveRegExp } from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp@esm/index.mjs';
 ```
 
 #### regexp
@@ -115,7 +120,7 @@ The following regular expressions are currently exported:
 <script type="module">
 
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils/keys@esm/index.mjs';
-import regexp from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp@v0.3.2-esm/index.mjs';
+import regexp from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp@esm/index.mjs';
 
 console.log( objectKeys( regexp ) );
 
