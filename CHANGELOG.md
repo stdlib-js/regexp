@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-02-03)
+## Unreleased (2025-03-30)
 
 <section class="packages">
 
@@ -18,8 +18,9 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   Philipp Burckhardt
 
 </section>
@@ -32,6 +33,11 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 <details>
 
+-   [`ee57af4`](https://github.com/stdlib-js/stdlib/commit/ee57af4b2fb41972323b5d2b0b74596754d8dbb0) - **refactor:** use base array assertion utility _(by Athan Reines)_
+-   [`e5c1f92`](https://github.com/stdlib-js/stdlib/commit/e5c1f92236d5178303788c884849a077530e2064) - **refactor:** use base array assertion utility _(by Athan Reines)_
+-   [`f59be2b`](https://github.com/stdlib-js/stdlib/commit/f59be2b43dcf98ba8c78d8837c9c3d21b041d70d) - **refactor:** use base array assertion utility _(by Athan Reines)_
+-   [`bee48b7`](https://github.com/stdlib-js/stdlib/commit/bee48b777bb048e28d244a0736385dfa2786e183) - **refactor:** use base array assertion utility _(by Athan Reines)_
+-   [`4a1f629`](https://github.com/stdlib-js/stdlib/commit/4a1f62948d89370e432a733aeccd854aac26caab) - **refactor:** use base array assertion utility _(by Athan Reines)_
 -   [`0ba282b`](https://github.com/stdlib-js/stdlib/commit/0ba282b89c384f06bbe3ff8ecd71982f05209606) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`b8c41df`](https://github.com/stdlib-js/stdlib/commit/b8c41df78cd2cdc9cd3c3c6b223759d32f4f6e14) - **docs:** update related packages sections [(#3915)](https://github.com/stdlib-js/stdlib/pull/3915) _(by stdlib-bot)_
 
