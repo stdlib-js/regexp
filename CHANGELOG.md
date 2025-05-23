@@ -4,28 +4,19 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-30)
+## Unreleased (2025-05-23)
 
-<section class="packages">
+<section class="issues">
 
-### Packages
+### Closed Issues
 
-</section>
+This release closes the following issue:
 
-<!-- /.packages -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 2 people contributed to this release. Thank you to the following contributors:
-
--   Athan Reines
--   Philipp Burckhardt
+[#7057](https://github.com/stdlib-js/stdlib/issues/7057)
 
 </section>
 
-<!-- /.contributors -->
+<!-- /.issues -->
 
 <section class="commits">
 
@@ -33,6 +24,7 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`296ea30`](https://github.com/stdlib-js/stdlib/commit/296ea30ecee4eb9377455f83a7561635c8c2a84f) - **chore:** fix EditorConfig lint errors [(#7063)](https://github.com/stdlib-js/stdlib/pull/7063) _(by Uday Kakade)_
 -   [`ee57af4`](https://github.com/stdlib-js/stdlib/commit/ee57af4b2fb41972323b5d2b0b74596754d8dbb0) - **refactor:** use base array assertion utility _(by Athan Reines)_
 -   [`e5c1f92`](https://github.com/stdlib-js/stdlib/commit/e5c1f92236d5178303788c884849a077530e2064) - **refactor:** use base array assertion utility _(by Athan Reines)_
 -   [`f59be2b`](https://github.com/stdlib-js/stdlib/commit/f59be2b43dcf98ba8c78d8837c9c3d21b041d70d) - **refactor:** use base array assertion utility _(by Athan Reines)_
@@ -46,6 +38,20 @@ A total of 2 people contributed to this release. Thank you to the following cont
 </section>
 
 <!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 3 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Philipp Burckhardt
+-   Uday Kakade
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
@@ -65,26 +71,6 @@ No changes reported for this release.
 
 ## 0.3.2 (2024-11-05)
 
-<section class="packages">
-
-### Packages
-
-</section>
-
-<!-- /.packages -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 1 person contributed to this release. Thank you to this contributor:
-
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
-
 <section class="commits">
 
 ### Commits
@@ -99,6 +85,18 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 </section>
 
 <!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
@@ -118,26 +116,6 @@ No changes reported for this release.
 
 ## 0.3.0 (2024-08-17)
 
-<section class="packages">
-
-### Packages
-
-</section>
-
-<!-- /.packages -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 1 person contributed to this release. Thank you to this contributor:
-
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
-
 <section class="commits">
 
 ### Commits
@@ -152,6 +130,18 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 </section>
 
 <!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
@@ -171,27 +161,6 @@ No changes reported for this release.
 
 ## 0.2.0 (2024-02-05)
 
-<section class="packages">
-
-### Packages
-
-</section>
-
-<!-- /.packages -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 2 people contributed to this release. Thank you to the following contributors:
-
--   Athan Reines
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
-
 <section class="commits">
 
 ### Commits
@@ -209,6 +178,19 @@ A total of 2 people contributed to this release. Thank you to the following cont
 </section>
 
 <!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
@@ -228,909 +210,15 @@ No changes reported for this release.
 
 ## 0.1.0 (2023-11-08)
 
-<section class="packages">
-
-### Packages
-
-<section class="package" id="regexp-v0.1.0">
-
-#### [@stdlib/regexp](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/regexp)
-
-<details>
-
 <section class="features">
 
-##### Features
+### Features
 
 -   [`0b0ec17`](https://github.com/stdlib-js/stdlib/commit/0b0ec176aed8cf508e4dd796db813f5b204fc7a6) - update minimum TypeScript version
 
 </section>
 
 <!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`0b0ec17`](https://github.com/stdlib-js/stdlib/commit/0b0ec176aed8cf508e4dd796db813f5b204fc7a6): update minimum TypeScript version
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="regexp-basename-v0.1.0">
-
-#### [@stdlib/regexp/basename](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/regexp/basename)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`0b0ec17`](https://github.com/stdlib-js/stdlib/commit/0b0ec176aed8cf508e4dd796db813f5b204fc7a6) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`0b0ec17`](https://github.com/stdlib-js/stdlib/commit/0b0ec176aed8cf508e4dd796db813f5b204fc7a6): update minimum TypeScript version
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="regexp-basename-posix-v0.1.0">
-
-#### [@stdlib/regexp/basename-posix](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/regexp/basename-posix)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`0b0ec17`](https://github.com/stdlib-js/stdlib/commit/0b0ec176aed8cf508e4dd796db813f5b204fc7a6) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`0b0ec17`](https://github.com/stdlib-js/stdlib/commit/0b0ec176aed8cf508e4dd796db813f5b204fc7a6): update minimum TypeScript version
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="regexp-basename-windows-v0.1.0">
-
-#### [@stdlib/regexp/basename-windows](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/regexp/basename-windows)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`0b0ec17`](https://github.com/stdlib-js/stdlib/commit/0b0ec176aed8cf508e4dd796db813f5b204fc7a6) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`0b0ec17`](https://github.com/stdlib-js/stdlib/commit/0b0ec176aed8cf508e4dd796db813f5b204fc7a6): update minimum TypeScript version
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="regexp-color-hexadecimal-v0.1.0">
-
-#### [@stdlib/regexp/color-hexadecimal](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/regexp/color-hexadecimal)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`0b0ec17`](https://github.com/stdlib-js/stdlib/commit/0b0ec176aed8cf508e4dd796db813f5b204fc7a6) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`0b0ec17`](https://github.com/stdlib-js/stdlib/commit/0b0ec176aed8cf508e4dd796db813f5b204fc7a6): update minimum TypeScript version
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="regexp-decimal-number-v0.1.0">
-
-#### [@stdlib/regexp/decimal-number](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/regexp/decimal-number)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`0b0ec17`](https://github.com/stdlib-js/stdlib/commit/0b0ec176aed8cf508e4dd796db813f5b204fc7a6) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`0b0ec17`](https://github.com/stdlib-js/stdlib/commit/0b0ec176aed8cf508e4dd796db813f5b204fc7a6): update minimum TypeScript version
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="regexp-dirname-v0.1.0">
-
-#### [@stdlib/regexp/dirname](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/regexp/dirname)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`0b0ec17`](https://github.com/stdlib-js/stdlib/commit/0b0ec176aed8cf508e4dd796db813f5b204fc7a6) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`0b0ec17`](https://github.com/stdlib-js/stdlib/commit/0b0ec176aed8cf508e4dd796db813f5b204fc7a6): update minimum TypeScript version
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="regexp-dirname-posix-v0.1.0">
-
-#### [@stdlib/regexp/dirname-posix](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/regexp/dirname-posix)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`0b0ec17`](https://github.com/stdlib-js/stdlib/commit/0b0ec176aed8cf508e4dd796db813f5b204fc7a6) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`0b0ec17`](https://github.com/stdlib-js/stdlib/commit/0b0ec176aed8cf508e4dd796db813f5b204fc7a6): update minimum TypeScript version
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="regexp-dirname-windows-v0.1.0">
-
-#### [@stdlib/regexp/dirname-windows](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/regexp/dirname-windows)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`0b0ec17`](https://github.com/stdlib-js/stdlib/commit/0b0ec176aed8cf508e4dd796db813f5b204fc7a6) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`0b0ec17`](https://github.com/stdlib-js/stdlib/commit/0b0ec176aed8cf508e4dd796db813f5b204fc7a6): update minimum TypeScript version
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="regexp-duration-string-v0.1.0">
-
-#### [@stdlib/regexp/duration-string](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/regexp/duration-string)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`0b0ec17`](https://github.com/stdlib-js/stdlib/commit/0b0ec176aed8cf508e4dd796db813f5b204fc7a6) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`0b0ec17`](https://github.com/stdlib-js/stdlib/commit/0b0ec176aed8cf508e4dd796db813f5b204fc7a6): update minimum TypeScript version
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="regexp-eol-v0.1.0">
-
-#### [@stdlib/regexp/eol](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/regexp/eol)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`0b0ec17`](https://github.com/stdlib-js/stdlib/commit/0b0ec176aed8cf508e4dd796db813f5b204fc7a6) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`0b0ec17`](https://github.com/stdlib-js/stdlib/commit/0b0ec176aed8cf508e4dd796db813f5b204fc7a6): update minimum TypeScript version
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="regexp-extended-length-path-v0.1.0">
-
-#### [@stdlib/regexp/extended-length-path](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/regexp/extended-length-path)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`0b0ec17`](https://github.com/stdlib-js/stdlib/commit/0b0ec176aed8cf508e4dd796db813f5b204fc7a6) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`0b0ec17`](https://github.com/stdlib-js/stdlib/commit/0b0ec176aed8cf508e4dd796db813f5b204fc7a6): update minimum TypeScript version
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="regexp-extname-v0.1.0">
-
-#### [@stdlib/regexp/extname](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/regexp/extname)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`0b0ec17`](https://github.com/stdlib-js/stdlib/commit/0b0ec176aed8cf508e4dd796db813f5b204fc7a6) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`0b0ec17`](https://github.com/stdlib-js/stdlib/commit/0b0ec176aed8cf508e4dd796db813f5b204fc7a6): update minimum TypeScript version
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="regexp-extname-posix-v0.1.0">
-
-#### [@stdlib/regexp/extname-posix](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/regexp/extname-posix)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`0b0ec17`](https://github.com/stdlib-js/stdlib/commit/0b0ec176aed8cf508e4dd796db813f5b204fc7a6) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`0b0ec17`](https://github.com/stdlib-js/stdlib/commit/0b0ec176aed8cf508e4dd796db813f5b204fc7a6): update minimum TypeScript version
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="regexp-extname-windows-v0.1.0">
-
-#### [@stdlib/regexp/extname-windows](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/regexp/extname-windows)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`0b0ec17`](https://github.com/stdlib-js/stdlib/commit/0b0ec176aed8cf508e4dd796db813f5b204fc7a6) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`0b0ec17`](https://github.com/stdlib-js/stdlib/commit/0b0ec176aed8cf508e4dd796db813f5b204fc7a6): update minimum TypeScript version
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="regexp-filename-v0.1.0">
-
-#### [@stdlib/regexp/filename](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/regexp/filename)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`0b0ec17`](https://github.com/stdlib-js/stdlib/commit/0b0ec176aed8cf508e4dd796db813f5b204fc7a6) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`0b0ec17`](https://github.com/stdlib-js/stdlib/commit/0b0ec176aed8cf508e4dd796db813f5b204fc7a6): update minimum TypeScript version
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="regexp-filename-posix-v0.1.0">
-
-#### [@stdlib/regexp/filename-posix](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/regexp/filename-posix)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`0b0ec17`](https://github.com/stdlib-js/stdlib/commit/0b0ec176aed8cf508e4dd796db813f5b204fc7a6) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`0b0ec17`](https://github.com/stdlib-js/stdlib/commit/0b0ec176aed8cf508e4dd796db813f5b204fc7a6): update minimum TypeScript version
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="regexp-filename-windows-v0.1.0">
-
-#### [@stdlib/regexp/filename-windows](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/regexp/filename-windows)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`0b0ec17`](https://github.com/stdlib-js/stdlib/commit/0b0ec176aed8cf508e4dd796db813f5b204fc7a6) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`0b0ec17`](https://github.com/stdlib-js/stdlib/commit/0b0ec176aed8cf508e4dd796db813f5b204fc7a6): update minimum TypeScript version
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="regexp-function-name-v0.1.0">
-
-#### [@stdlib/regexp/function-name](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/regexp/function-name)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`0b0ec17`](https://github.com/stdlib-js/stdlib/commit/0b0ec176aed8cf508e4dd796db813f5b204fc7a6) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`0b0ec17`](https://github.com/stdlib-js/stdlib/commit/0b0ec176aed8cf508e4dd796db813f5b204fc7a6): update minimum TypeScript version
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="regexp-native-function-v0.1.0">
-
-#### [@stdlib/regexp/native-function](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/regexp/native-function)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`0b0ec17`](https://github.com/stdlib-js/stdlib/commit/0b0ec176aed8cf508e4dd796db813f5b204fc7a6) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`0b0ec17`](https://github.com/stdlib-js/stdlib/commit/0b0ec176aed8cf508e4dd796db813f5b204fc7a6): update minimum TypeScript version
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="regexp-regexp-v0.1.0">
-
-#### [@stdlib/regexp/regexp](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/regexp/regexp)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`0b0ec17`](https://github.com/stdlib-js/stdlib/commit/0b0ec176aed8cf508e4dd796db813f5b204fc7a6) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`0b0ec17`](https://github.com/stdlib-js/stdlib/commit/0b0ec176aed8cf508e4dd796db813f5b204fc7a6): update minimum TypeScript version
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="regexp-reviver-v0.1.0">
-
-#### [@stdlib/regexp/reviver](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/regexp/reviver)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`0b0ec17`](https://github.com/stdlib-js/stdlib/commit/0b0ec176aed8cf508e4dd796db813f5b204fc7a6) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`0b0ec17`](https://github.com/stdlib-js/stdlib/commit/0b0ec176aed8cf508e4dd796db813f5b204fc7a6): update minimum TypeScript version
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="regexp-semver-v0.1.0">
-
-#### [@stdlib/regexp/semver](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/regexp/semver)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`0b0ec17`](https://github.com/stdlib-js/stdlib/commit/0b0ec176aed8cf508e4dd796db813f5b204fc7a6) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`0b0ec17`](https://github.com/stdlib-js/stdlib/commit/0b0ec176aed8cf508e4dd796db813f5b204fc7a6): update minimum TypeScript version
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="regexp-to-json-v0.1.0">
-
-#### [@stdlib/regexp/to-json](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/regexp/to-json)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`0b0ec17`](https://github.com/stdlib-js/stdlib/commit/0b0ec176aed8cf508e4dd796db813f5b204fc7a6) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`0b0ec17`](https://github.com/stdlib-js/stdlib/commit/0b0ec176aed8cf508e4dd796db813f5b204fc7a6): update minimum TypeScript version
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="regexp-unc-path-v0.1.0">
-
-#### [@stdlib/regexp/unc-path](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/regexp/unc-path)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`0b0ec17`](https://github.com/stdlib-js/stdlib/commit/0b0ec176aed8cf508e4dd796db813f5b204fc7a6) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`0b0ec17`](https://github.com/stdlib-js/stdlib/commit/0b0ec176aed8cf508e4dd796db813f5b204fc7a6): update minimum TypeScript version
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="regexp-utf16-surrogate-pair-v0.1.0">
-
-#### [@stdlib/regexp/utf16-surrogate-pair](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/regexp/utf16-surrogate-pair)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`0b0ec17`](https://github.com/stdlib-js/stdlib/commit/0b0ec176aed8cf508e4dd796db813f5b204fc7a6) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`0b0ec17`](https://github.com/stdlib-js/stdlib/commit/0b0ec176aed8cf508e4dd796db813f5b204fc7a6): update minimum TypeScript version
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="regexp-utf16-unpaired-surrogate-v0.1.0">
-
-#### [@stdlib/regexp/utf16-unpaired-surrogate](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/regexp/utf16-unpaired-surrogate)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`0b0ec17`](https://github.com/stdlib-js/stdlib/commit/0b0ec176aed8cf508e4dd796db813f5b204fc7a6) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`0b0ec17`](https://github.com/stdlib-js/stdlib/commit/0b0ec176aed8cf508e4dd796db813f5b204fc7a6): update minimum TypeScript version
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="regexp-whitespace-v0.1.0">
-
-#### [@stdlib/regexp/whitespace](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/regexp/whitespace)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`0b0ec17`](https://github.com/stdlib-js/stdlib/commit/0b0ec176aed8cf508e4dd796db813f5b204fc7a6) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`0b0ec17`](https://github.com/stdlib-js/stdlib/commit/0b0ec176aed8cf508e4dd796db813f5b204fc7a6): update minimum TypeScript version
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-</section>
-
-<!-- /.packages -->
 
 <section class="breaking-changes">
 
@@ -1141,18 +229,6 @@ No changes reported for this release.
 </section>
 
 <!-- /.breaking-changes -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 1 person contributed to this release. Thank you to this contributor:
-
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
 
 <section class="commits">
 
@@ -1171,6 +247,18 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 </section>
 
 <!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
