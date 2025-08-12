@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-05-23)
+## Unreleased (2025-08-12)
 
 <section class="issues">
 
@@ -24,6 +24,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`77867ac`](https://github.com/stdlib-js/stdlib/commit/77867ac1767a186023f633dea30ddf860962aaed) - **docs:** remove trailing whitespace _(by Philipp Burckhardt)_
 -   [`296ea30`](https://github.com/stdlib-js/stdlib/commit/296ea30ecee4eb9377455f83a7561635c8c2a84f) - **chore:** fix EditorConfig lint errors [(#7063)](https://github.com/stdlib-js/stdlib/pull/7063) _(by Uday Kakade)_
 -   [`ee57af4`](https://github.com/stdlib-js/stdlib/commit/ee57af4b2fb41972323b5d2b0b74596754d8dbb0) - **refactor:** use base array assertion utility _(by Athan Reines)_
 -   [`e5c1f92`](https://github.com/stdlib-js/stdlib/commit/e5c1f92236d5178303788c884849a077530e2064) - **refactor:** use base array assertion utility _(by Athan Reines)_
