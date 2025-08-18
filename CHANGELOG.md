@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-12)
+## Unreleased (2025-08-18)
 
 <section class="issues">
 
@@ -24,6 +24,8 @@ This release closes the following issue:
 
 <details>
 
+-   [`07f7c05`](https://github.com/stdlib-js/stdlib/commit/07f7c0522c73e6ad9505e1d45035ae439344200d) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`f344466`](https://github.com/stdlib-js/stdlib/commit/f344466c6dcfb8f52d7f3148acaadd52772938da) - **test:** use .strictEqual() instead of .equal() and fix lint errors _(by Philipp Burckhardt)_
 -   [`77867ac`](https://github.com/stdlib-js/stdlib/commit/77867ac1767a186023f633dea30ddf860962aaed) - **docs:** remove trailing whitespace _(by Philipp Burckhardt)_
 -   [`296ea30`](https://github.com/stdlib-js/stdlib/commit/296ea30ecee4eb9377455f83a7561635c8c2a84f) - **chore:** fix EditorConfig lint errors [(#7063)](https://github.com/stdlib-js/stdlib/pull/7063) _(by Uday Kakade)_
 -   [`ee57af4`](https://github.com/stdlib-js/stdlib/commit/ee57af4b2fb41972323b5d2b0b74596754d8dbb0) - **refactor:** use base array assertion utility _(by Athan Reines)_
