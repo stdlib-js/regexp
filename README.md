@@ -110,6 +110,8 @@ The following regular expressions are currently exported:
 
 <!-- </toc> -->
 
+</section>
+
 <!-- /.usage -->
 
 <section class="examples">
