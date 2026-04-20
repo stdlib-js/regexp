@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-03)
+## Unreleased (2026-04-20)
 
 <section class="issues">
 
@@ -24,6 +24,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`8cbca87`](https://github.com/stdlib-js/stdlib/commit/8cbca872cf40171f6c3ec4240524ea940dcd8236) - **bench:** refactor to use string interpolation in `regexp` [(#11593)](https://github.com/stdlib-js/stdlib/pull/11593) _(by Karan Anand, Athan Reines)_
 -   [`f4988cf`](https://github.com/stdlib-js/stdlib/commit/f4988cf2c32f31b975e6c7bf14ba0eaccff7dad3) - **docs:** add missing closing section tag in `regexp` README _(by Philipp Burckhardt)_
 -   [`0472076`](https://github.com/stdlib-js/stdlib/commit/04720767c484e6277ad9411dff3dc5a116c31378) - **docs:** remove duplicated words in documentation and comments _(by Philipp Burckhardt)_
 -   [`8b0b780`](https://github.com/stdlib-js/stdlib/commit/8b0b78084a2ff5d7a76ba3c5945b13d7f0906f4f) - **docs:** fix TypeScript declaration linting errors _(by Philipp Burckhardt)_
@@ -49,9 +50,10 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Karan Anand
 -   Philipp Burckhardt
 -   Uday Kakade
 
