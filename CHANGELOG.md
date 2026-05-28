@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-11)
+## Unreleased (2026-05-28)
 
 <section class="issues">
 
@@ -24,6 +24,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`381e5c0`](https://github.com/stdlib-js/stdlib/commit/381e5c0d1b38c0ac6b937181ed7ed138a1256509) - **docs:** fix option description [(#12330)](https://github.com/stdlib-js/stdlib/pull/12330) _(by Philipp Burckhardt)_
 -   [`afff37d`](https://github.com/stdlib-js/stdlib/commit/afff37ddf37a6fa9e1eef050a22e5c4efc13b664) - **docs:** add example code block [(#11725)](https://github.com/stdlib-js/stdlib/pull/11725) _(by Philipp Burckhardt)_
 -   [`8cbca87`](https://github.com/stdlib-js/stdlib/commit/8cbca872cf40171f6c3ec4240524ea940dcd8236) - **bench:** refactor to use string interpolation in `regexp` [(#11593)](https://github.com/stdlib-js/stdlib/pull/11593) _(by Karan Anand, Athan Reines)_
 -   [`f4988cf`](https://github.com/stdlib-js/stdlib/commit/f4988cf2c32f31b975e6c7bf14ba0eaccff7dad3) - **docs:** add missing closing section tag in `regexp` README _(by Philipp Burckhardt)_
