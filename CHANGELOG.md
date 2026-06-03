@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-30)
+## Unreleased (2026-06-03)
 
 <section class="issues">
 
@@ -24,6 +24,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`dfcf918`](https://github.com/stdlib-js/stdlib/commit/dfcf9185c66be30f67f6f91343e196f16a5ab235) - **chore:** fix typo in interface name and error message [(#12445)](https://github.com/stdlib-js/stdlib/pull/12445) _(by Philipp Burckhardt)_
 -   [`cf4e95c`](https://github.com/stdlib-js/stdlib/commit/cf4e95c3656d2fcf022d939feea32eb9a2c9154a) - **docs:** fix mismatched README sub-header in `regexp/dirname` [(#12363)](https://github.com/stdlib-js/stdlib/pull/12363) _(by Philipp Burckhardt)_
 -   [`381e5c0`](https://github.com/stdlib-js/stdlib/commit/381e5c0d1b38c0ac6b937181ed7ed138a1256509) - **docs:** fix option description [(#12330)](https://github.com/stdlib-js/stdlib/pull/12330) _(by Philipp Burckhardt)_
 -   [`afff37d`](https://github.com/stdlib-js/stdlib/commit/afff37ddf37a6fa9e1eef050a22e5c4efc13b664) - **docs:** add example code block [(#11725)](https://github.com/stdlib-js/stdlib/pull/11725) _(by Philipp Burckhardt)_
