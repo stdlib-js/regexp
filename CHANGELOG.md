@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-20)
+## Unreleased (2026-06-21)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`1509128`](https://github.com/stdlib-js/stdlib/commit/150912888f3eca008e21e66439108237a3d8a9e0) - **docs:** update descriptions [(#13013)](https://github.com/stdlib-js/stdlib/pull/13013) _(by Philipp Burckhardt)_
 -   [`aa598c9`](https://github.com/stdlib-js/stdlib/commit/aa598c929946d8083d945a9cc47400b86aabd358) - **chore:** propagate fixes across `blas/ext/base` and `regexp` [(#12970)](https://github.com/stdlib-js/stdlib/pull/12970) _(by Philipp Burckhardt)_
 
 </details>
