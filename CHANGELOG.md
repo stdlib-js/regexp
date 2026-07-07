@@ -4,7 +4,19 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-23)
+## Unreleased (2026-07-07)
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#13344](https://github.com/stdlib-js/stdlib/issues/13344)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="commits">
 
@@ -12,6 +24,7 @@
 
 <details>
 
+-   [`09d16f1`](https://github.com/stdlib-js/stdlib/commit/09d16f1858c4cbf2ce774269447f8dff9f1ff756) - **chore:** fix JavaScript lint errors [(#13357)](https://github.com/stdlib-js/stdlib/pull/13357) _(by Ujjwal Verma, Athan Reines)_
 -   [`1509128`](https://github.com/stdlib-js/stdlib/commit/150912888f3eca008e21e66439108237a3d8a9e0) - **docs:** update descriptions [(#13013)](https://github.com/stdlib-js/stdlib/pull/13013) _(by Philipp Burckhardt)_
 -   [`aa598c9`](https://github.com/stdlib-js/stdlib/commit/aa598c929946d8083d945a9cc47400b86aabd358) - **chore:** propagate fixes across `blas/ext/base` and `regexp` [(#12970)](https://github.com/stdlib-js/stdlib/pull/12970) _(by Philipp Burckhardt)_
 
@@ -25,9 +38,11 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   Philipp Burckhardt
+-   Ujjwal Verma
 
 </section>
 
