@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-11-06)
+## Unreleased (2026-11-08)
+
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`a3ef833`](https://github.com/stdlib-js/stdlib/commit/a3ef8332fc0b02f15802a6edb81df0ede5457fc6) - add support for `d`, `s`, `u`, and `v` regexp flags [(#16543)](https://github.com/stdlib-js/stdlib/pull/16543)
+
+</section>
+
+<!-- /.bug-fixes -->
 
 <section class="issues">
 
@@ -24,6 +34,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`a3ef833`](https://github.com/stdlib-js/stdlib/commit/a3ef8332fc0b02f15802a6edb81df0ede5457fc6) - **fix:** add support for `d`, `s`, `u`, and `v` regexp flags [(#16543)](https://github.com/stdlib-js/stdlib/pull/16543) _(by Rajan Pantha)_
 -   [`4babd89`](https://github.com/stdlib-js/stdlib/commit/4babd891dc288191e8f443746566e483dda396c0) - **docs:** document property [(#16404)](https://github.com/stdlib-js/stdlib/pull/16404) _(by Philipp Burckhardt, Athan Reines)_
 -   [`78ad2fa`](https://github.com/stdlib-js/stdlib/commit/78ad2fa5dbb12ce808dec93197d5343745ff91b8) - **docs:** normalize trailing newlines in REPL help texts [(#16420)](https://github.com/stdlib-js/stdlib/pull/16420) _(by Philipp Burckhardt)_
 -   [`241d36c`](https://github.com/stdlib-js/stdlib/commit/241d36c44454ad127e74eb2321376de72935f65e) - **chore:** add keywords [(#13351)](https://github.com/stdlib-js/stdlib/pull/13351) _(by Philipp Burckhardt)_
@@ -41,10 +52,11 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Philipp Burckhardt
+-   Rajan Pantha
 -   Ujjwal Verma
 
 </section>
